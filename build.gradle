@@ -1,0 +1,13 @@
+plugins {
+    id 'java'
+    id 'org.ajoberstar.reckon' version '0.9.0'
+}
+
+reckon {
+    scopeFromProp()
+    stageFromProp('beta', 'rc', 'final')
+}
+
+group 'no.norkje'
+
+sourceCompatibility = 1.8
