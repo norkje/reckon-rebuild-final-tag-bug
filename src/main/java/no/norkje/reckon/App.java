@@ -8,6 +8,7 @@ public class App {
     }
 
     private static void feature1() {
+        System.out.println("Starting feature 1");
         System.out.println("Feature 1");
     }
 
